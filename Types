@@ -1,0 +1,12 @@
+Types of Neural Network:-
+1)Multi Layer Perceptron:-Multiple layers of perceptron(nodes) called input layer,hidden layer and output layer.Used specially in supervised ML problems like regression 
+                          and classification.Great when we want to capture non-linear relationship.
+2)Convonutional Neural Network:-This is a special type of neural network in which atleast one layer is convonutional layer.Used in image processing like self friving cars,
+                                detect lung cancer cells.
+3)Recurrent Neural Network:-Till now what we discussed,the input info. goes from the input layer to the o/p layer in a linear fashion,but in RNN the o/p of one layer comes
+                            as feedback to another layer and then goes forward.A good variation of it is LSTM(long short term memory)Used most frequently in natural lang.
+                            based processing applications.(eg:-siri)
+4)Auto encoders:-We have an i/p data which we want to compress without losing the quality.Here the i/p layers and o/p layers have equal number of nodes but the hidden layers
+                 have less number of nodes.
+5)Generative Adverserial Networks:-We can perform imagintion using artificial neural network.An architecture was created where two neural networks compete with each other,
+                                   one is called generator and the other is called discriminator.We can generate an imaginative image.can generate stories,music,etc.
